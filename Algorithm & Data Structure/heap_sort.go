@@ -15,7 +15,7 @@ type MaxHeap struct {
 }
 
 func heap_sort() {
-	slice := generateSlice(11)
+	slice := generateRandomSlice(11)
 	fmt.Println("\nHeap Sort:=")
 	fmt.Println(slice)
 	fmt.Println(HeapSort(slice))

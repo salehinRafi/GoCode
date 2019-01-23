@@ -17,7 +17,7 @@ import (
 )
 
 func quick_sort() {
-	slice := generateSlice(10)
+	slice := generateRandomSlice(10)
 	fmt.Println("\nQuick Sort:=")
 	fmt.Println(slice)
 	fmt.Println(QuickSort(slice))

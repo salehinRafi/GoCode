@@ -11,7 +11,7 @@ import (
 )
 
 func merge_sort() {
-	slice := generateSlice(10)
+	slice := generateRandomSlice(10)
 	fmt.Println("\nMerge Sort:=")
 	fmt.Println(slice)
 	fmt.Println(MergeSort(slice))
