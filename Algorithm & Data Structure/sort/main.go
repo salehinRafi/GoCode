@@ -5,4 +5,5 @@ func main() {
 	quick_sort()
 	heap_sort()
 	counting_sort()
+	radix_sort()
 }

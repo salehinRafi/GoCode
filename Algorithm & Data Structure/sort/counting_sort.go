@@ -1,8 +1,8 @@
 /*
 Counting Sort Program
-	Counting Sort is O(n).
-	It does not do any comparison. Instead, counting sort uses the actual values of the elements to index into an array.
-	It only works for positive integers. The running time depends on the largest element. Therefore, if the maximum value is very large, the sorting takes long time.
+	-	Counting Sort is O(n).
+	-	It does not do any comparison. Instead, counting sort uses the actual values of the elements to index into an array.
+	-	It only works for positive integers. The running time depends on the largest element. Therefore, if the maximum value is very large, the sorting takes long time.
 */
 
 package main
@@ -11,8 +11,7 @@ import "fmt"
 
 func counting_sort() {
 
-	//slice := generatePositiveSlice(5)
-	slice := []int{7, 1, 5, 2, 2}
+	slice := generatePositiveSlice(5)
 	fmt.Println("\nCounting Sort:=")
 	fmt.Println(slice)
 	fmt.Println(CountingSort(slice))
